@@ -1,4 +1,21 @@
-# React Native Voice Message Player
+# @carchaze/react-native-voice-message-player
+
+![GitHub Stars](https://img.shields.io/github/stars/carchaze-org/react-native-voice-message-player?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/carchaze-org/react-native-voice-message-player?style=social)
+
+
+![Supports iOS](https://img.shields.io/badge/supports-iOS-blue.svg)
+![Supports Android](https://img.shields.io/badge/supports-Android-green.svg)
+
+<img src="https://www.pngmart.com/files/3/Sound-Wave-PNG-File.png" alt="Demo Gif"  height="100" width="500"/>
+
+\
+[![publish-package](https://img.shields.io/badge/publish-package-brightgreen.svg)](LINK_TO_PUBLISH_ACTION)
+[![License](https://img.shields.io/npm/l/@carchaze/react-native-voice-message-player.svg)](https://github.com/carchaze-org/react-native-voice-message-player/blob/master/LICENSE)
+[![code style: prettier](https://img.shields.io/badge/code%20style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+![GitHub Top Language](https://img.shields.io/github/languages/top/carchaze-org/react-native-voice-message-player)
+![Last Commit](https://img.shields.io/github/last-commit/carchaze-org/react-native-voice-message-player)
 
 The `@carchaze/react-native-voice-message-player` is a flexible and feature-rich voice message player tailored for React Native applications. It's designed to provide developers with a seamless solution to integrate voice message playback into their apps with various customization options.
 
@@ -15,6 +32,7 @@ The `@carchaze/react-native-voice-message-player` is a flexible and feature-rich
 - **Audio Playback Controls**: Play, pause, and load voice messages with user feedback.
 
 ## Demo
+
 <img src="https://firebasestorage.googleapis.com/v0/b/hamzzahussain.appspot.com/o/Utilities%2Freact-native-voice-message-player__ios.gif?alt=media&token=d11bb38a-dd4f-4fc2-9781-f04194d6a369" alt="Demo Gif"  height="400" />
 
 ## Installation
@@ -179,7 +197,7 @@ If you have any questions or need assistance, feel free to reach out to us:
 
 ## Changelog
 
-### [1.0.0] - 2023-08-09
+### [1.0.2] - 2023-08-09
 
 - Initial release of React Native Voice Message Player.
 - Added theming and styling customization options.
@@ -187,6 +205,7 @@ If you have any questions or need assistance, feel free to reach out to us:
 - Implemented audio playback controls.
 - Display progress for downloading voice messages.
 - Various bug fixes and improvements.
+- 🗑️ Removed data folder - trimmed down size from dummy data.
 
 ## FAQs
 
