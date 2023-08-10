@@ -3,7 +3,6 @@
 ![GitHub Stars](https://img.shields.io/github/stars/carchaze-org/react-native-voice-message-player?style=social)
 ![GitHub Forks](https://img.shields.io/github/forks/carchaze-org/react-native-voice-message-player?style=social)
 
-
 ![Supports iOS](https://img.shields.io/badge/supports-iOS-blue.svg)
 ![Supports Android](https://img.shields.io/badge/supports-Android-green.svg)
 
@@ -18,6 +17,9 @@
 ![Last Commit](https://img.shields.io/github/last-commit/carchaze-org/react-native-voice-message-player)
 
 The `@carchaze/react-native-voice-message-player` is a flexible and feature-rich voice message player tailored for React Native applications. It's designed to provide developers with a seamless solution to integrate voice message playback into their apps with various customization options.
+
+For a detailed list of changes, please refer to the [CHANGELOG.md](CHANGELOG.md).
+
 
 ## Maintainer Required 🤝
 
@@ -57,12 +59,19 @@ import RNVoiceMessagePlayer from '@carchaze/react-native-voice-message-player';
 2. Use the `RNVoiceMessagePlayer` component in your render method:
 
 ```jsx
-<RNVoiceMessagePlayer
-  source={require('./path/to/audio.mp3')} // or {uri: 'https://example.com/audio.mp3'}
-  timestamp="12:34 PM"
-  autoDownload={true}
-  // Add other props as needed
-/>
+const localFile = require('./path/to/audio.*')
+const localUrl = "file:///path/to/audio.*"
+const onlineUrl = "https://example.com/audio.*"
+
+// Load local file
+<RNVoiceMessagePlayer source={localFile} />
+
+// Load local url
+<RNVoiceMessagePlayer source={localUrl} />
+<RNVoiceMessagePlayer source={{uri: localUrl}} />
+
+// Load online url
+<RNVoiceMessagePlayer source={onlineUrl} autoDownload={true} />
 ```
 
 ## Props
@@ -195,18 +204,6 @@ If you have any questions or need assistance, feel free to reach out to us:
 - Email: hamza@carchaze.com
 - GitHub Issues: [Report Issue](https://github.com/carchaze-org/react-native-voice-message-player/issues)
 
-## Changelog
-
-### [1.0.2] - 2023-08-09
-
-- Initial release of React Native Voice Message Player.
-- Added theming and styling customization options.
-- Introduced profile support with custom images.
-- Implemented audio playback controls.
-- Display progress for downloading voice messages.
-- Various bug fixes and improvements.
-- 🗑️ Removed data folder - trimmed down size from dummy data.
-
 ## FAQs
 
 ### General
@@ -297,3 +294,4 @@ Every contributor gets recognized! All accepted contributions will see the contr
 If you have any questions about contributing or face issues while setting up, don't hesitate to reach out. Create an issue, and a team member will assist you.
 
 Thank you for being a part of CarChaze's open-source initiatives! Your efforts help make the React Native ecosystem even better.
+

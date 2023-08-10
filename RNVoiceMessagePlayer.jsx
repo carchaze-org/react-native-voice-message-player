@@ -155,6 +155,8 @@ const VoicePlayerComponent = (props, ref) => {
 
   const selectedTheme = {...theme, ...(customTheme || {})};
   const isURL = typeof audioSrc === 'string' && audioSrc?.startsWith('http');
+  const isLocalUrl =
+    typeof audioSrc === 'string' && audioSrc?.startsWith('file');
   const timerValue =
     duration - currentTime >= 0 ? duration - currentTime : duration;
 
@@ -270,8 +272,8 @@ const VoicePlayerComponent = (props, ref) => {
     console.log('Initializing Sound...');
     soundRef.current = new Sound(
       filePath,
-      isURL ? '' : lastParam,
-      isURL ? lastParam : undefined,
+      isURL || isLocalUrl ? '' : lastParam,
+      isURL || isLocalUrl ? lastParam : undefined,
     );
   };
 
