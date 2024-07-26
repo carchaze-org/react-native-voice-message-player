@@ -37,6 +37,9 @@ For a detailed list of changes, please refer to the [CHANGELOG.md](CHANGELOG.md)
 
 <img src="https://firebasestorage.googleapis.com/v0/b/hamzzahussain.appspot.com/o/Utilities%2Freact-native-voice-message-player__ios.gif?alt=media&token=d11bb38a-dd4f-4fc2-9781-f04194d6a369" alt="Demo Gif"  height="400" />
 
+<a href="https://www.buymeacoffee.com/hamxahusain" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;"></a>
+
+
 ## Installation
 
 ```bash
@@ -294,4 +297,7 @@ Every contributor gets recognized! All accepted contributions will see the contr
 If you have any questions about contributing or face issues while setting up, don't hesitate to reach out. Create an issue, and a team member will assist you.
 
 Thank you for being a part of CarChaze's open-source initiatives! Your efforts help make the React Native ecosystem even better.
+
+
+
 
